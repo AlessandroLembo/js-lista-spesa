@@ -18,29 +18,41 @@ ANALISI:
 6 - Stampa in pagina.
 */
 
-// 1 - Creo un array contenente una lista della spesa.
-const listElement = ['pane', 'latte', 'uova', 'sale', 'zucchero'];
-// console.log(listElement);
+// // 1 - Creo un array contenente una lista della spesa.
+// const listElement = ['pane', 'latte', 'uova', 'sale', 'zucchero'];
+// // console.log(listElement);
 
-// 2 - Prendo l'elemento dalla pagina.
-const bagElement = document.getElementById('bag');
-// console.log(bagElement);
+// // 2 - Prendo l'elemento dalla pagina.
+// const bagElement = document.getElementById('bag');
+// // console.log(bagElement);
 
-// 3 - Creazione due variabili.
-let i = 0;
-let currentElement = `<ul>`;
+// // 3 - Creazione due variabili.
+// let i = 0;
+// let currentElement = `<ul>`;
 
-// 4 - Finchè ho elmenti nella lista li raccolgo per inserirli nella borsa.
-while (i < listElement.length) {
-    // console.log(listElement[i]);
-    currentElement += `<li>${listElement[i]}</li>`;
+// // 4 - Finchè ho elmenti nella lista li raccolgo per inserirli nella borsa.
+// while (i < listElement.length) {
+//     // console.log(listElement[i]);
+//     currentElement += `<li>${listElement[i]}</li>`;
     
-    i++;
-}
+//     i++;
+// }
 
-// 5 - Chiusura lista.
-currentElement += `</ul>`;
+// // 5 - Chiusura lista.
+// currentElement += `</ul>`;
 
-// 6 - Stampa in pagina.
-console.log(currentElement);
-bagElement.innerHTML = currentElement;
+// // 6 - Stampa in pagina.
+// console.log(currentElement);
+// bagElement.innerHTML = currentElement;
+
+
+
+// TODO: Stampare usando il sistema dei nodi
+const bigBagElement = document.getElementById('big-bag');
+
+// 1 - prendo l'elemento dalla pagina
+console.log(bigBagElement);
+// Creo l'elemento in cui andrò inserire gli elementi da stampare
+
+
+
