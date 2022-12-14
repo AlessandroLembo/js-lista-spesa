@@ -20,8 +20,8 @@ ANALISI:
 */
 
 // 1 - Creo un array contenente una lista della spesa.
-const listElement = ['pane', 'latte', 'uova', 'sale', 'zucchero'];
-// console.log(listElement);
+const firstList = ['pane', 'latte', 'uova', 'sale', 'zucchero'];
+// console.log(firstList);
 
 // 2 - Prendo l'elemento dalla pagina.
 const bagElement = document.getElementById('bag');
@@ -32,9 +32,9 @@ let i = 0;
 let currentElement = `<ul>`;
 
 // 4 - Finchè ho elmenti nella lista li raccolgo per inserirli nella borsa.
-while (i < listElement.length) {
-    // console.log(listElement[i]);
-    currentElement += `<li>${listElement[i]}</li>`;
+while (i < firstList.length) {
+    // console.log(firstList[i]);
+    currentElement += `<li>${firstList[i]}</li>`;
     
     i++;
 }
@@ -62,8 +62,8 @@ ANALISI
 */
 
 // 1 - Creo un array contenente una lista della spesa.
-const listElement2 = ['pasta', 'riso', 'legumi', 'frutta', 'verdura'];
-// console.log(listElement2);
+const secondList = ['pasta', 'riso', 'legumi', 'frutta', 'verdura', 'detersivi', 'acqua', 'bibite'];
+// console.log(secondList);
 
 // 2 - Prendo l'elemento dalla pagina.
 const bigBagElement = document.getElementById('big-bag');
@@ -74,8 +74,8 @@ let j = 0;
 let currentElement2 = '';
 
 // 4 - Finchè ho elmenti nella lista li raccolgo per inserirli nella borsa.
-while (j < listElement2.length) {
-    currentElement2 = listElement2[j];
+while (j < secondList.length) {
+    currentElement2 = secondList[j];
     
     j++;
    
